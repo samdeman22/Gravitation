@@ -1,0 +1,1767 @@
+Mono path[0] = 'S:/Workspace/win/unity/gravitation/builds_Data/Managed'
+Mono path[1] = 'S:/Workspace/win/unity/gravitation/builds_Data/Mono'
+Mono config path = 'S:/Workspace/win/unity/gravitation/builds_Data/Mono/etc'
+PlayerConnection initialized from S:/Workspace/win/unity/gravitation/builds_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55064
+Multi-casting "[IP] 192.168.1.37 [Port] 55064 [Flags] 3 [Guid] 3989756757 [EditorId] 3288522659 [Version] 1048832 [Id] WindowsPlayer(SAM-LAPTOP) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [192.168.1.37:55064]...
+PlayerConnection accepted from [192.168.1.37] handle:0x264
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56757
+PlayerConnection already initialized - listening to [192.168.1.37:55064]
+Initialize engine version: 5.1.2f1 (afd2369b692a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x416)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: S:\Workspace\win\unity\gravitation\builds_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading S:\Workspace\win\unity\gravitation\builds_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: S:\Workspace\win\unity\gravitation\builds_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading S:\Workspace\win\unity\gravitation\builds_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: S:\Workspace\win\unity\gravitation\builds_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading S:\Workspace\win\unity\gravitation\builds_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: S:\Workspace\win\unity\gravitation\builds_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading S:\Workspace\win\unity\gravitation\builds_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: S:\Workspace\win\unity\gravitation\builds_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading S:\Workspace\win\unity\gravitation\builds_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: S:\Workspace\win\unity\gravitation\builds_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading S:\Workspace\win\unity\gravitation\builds_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.203 seconds
+desktop: 3840x2160 60Hz; virtual: 3840x2160 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: S:\Workspace\win\unity\gravitation\builds_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: S:\Workspace\win\unity\gravitation\builds_Data\Managed\System.dll (this message is harmless)
+5.12674E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.263, 0.116, 0.210, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+0.2387324
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.571, 0.081, 0.240, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(-0.6, -0.5, -4.3)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.502, 0.207, 0.584, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(-20.9, 32.6, -13.3)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.348, 0.646, 0.938, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(1.7, -0.5, -3.5)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.122, 0.560, 0.623, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(-2.4, -0.5, -3.6)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.937, 0.659, 0.208, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(-0.4, -0.5, -4.6)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.930, 0.042, 0.571, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(0.1, -0.5, -5.8)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.611, 0.362, 0.174, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(-4.0, 0.5, -3.3)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.429, 0.104, 0.454, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(1.0, 9.2, -5.8)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.913, 0.314, 0.256, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(1.5, 9.0, -5.8)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.836, 0.561, 0.203, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(-5.4, -0.5, -1.4)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.640, 0.471, 0.204, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(-4.6, -0.5, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.075, 0.526, 0.072, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(-4.5, -0.5, -2.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.486, 0.141, 0.212, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(-3.6, -0.5, -2.8)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.484, 0.570, 0.032, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(-3.8, -0.5, -3.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.636, 0.034, 0.338, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(-3.4, -0.5, -3.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.978, 0.718, 0.978, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(-3.4, 0.8, -3.6)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.350, 0.932, 0.233, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(-4.7, -0.5, -3.9)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.389, 0.328, 0.638, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(-4.4, -0.3, -3.9)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.176, 0.070, 0.504, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(-3.1, 0.3, -4.3)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.743, 0.070, 0.729, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(19.0, 15.2, -13.7)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.842, 0.070, 0.504, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(18.7, 15.1, -14.1)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.526, 0.147, 0.987, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(18.4, 15.1, -14.3)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.752, 0.343, 0.077, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(19.3, 15.0, -14.3)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.046, 0.204, 0.679, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(19.3, 15.1, -14.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.410, 0.096, 0.331, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(18.9, 15.0, -14.3)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.598, 0.445, 0.538, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(19.2, 15.0, -14.3)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.676, 0.428, 0.603, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(22.1, 14.0, -15.3)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.860, 0.656, 0.010, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(22.4, 14.2, -15.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.811, 0.291, 0.939, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(22.3, 14.0, -15.4)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.880, 0.289, 0.326, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(22.6, 14.1, -15.5)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.126, 0.718, 0.419, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(22.8, 14.2, -15.5)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.907, 0.612, 0.347, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(23.2, 14.3, -15.6)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.082, 0.747, 0.210, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(23.5, 14.5, -15.5)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.767, 0.792, 0.923, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(23.1, 14.0, -15.8)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.332, 0.243, 0.566, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(23.6, 14.0, -15.9)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.756, 0.364, 0.421, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(24.0, 14.4, -15.9)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.577, 0.822, 0.924, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(24.5, 14.6, -16.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.618, 0.747, 0.010, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(24.7, 14.8, -16.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.610, 0.004, 0.975, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(25.3, 15.0, -16.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.212, 0.090, 0.212, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(24.9, 14.4, -16.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.829, 0.093, 0.517, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(24.7, 14.3, -16.4)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.318, 0.706, 0.344, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(25.1, 14.6, -16.3)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.509, 0.249, 0.319, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(25.6, 14.9, -16.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.781, 0.449, 0.841, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(27.9, -0.5, -32.6)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.276, 0.142, 0.740, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(28.5, 15.6, -16.8)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.098, 0.537, 0.300, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(29.1, 15.5, -17.1)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.849, 0.427, 0.015, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(29.2, 16.0, -16.9)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.433, 0.128, 0.526, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(29.6, 16.2, -16.8)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.439, 0.190, 0.218, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(30.0, 16.4, -16.8)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.265, 0.278, 0.897, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(30.1, 16.7, -16.4)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.883, 0.402, 0.344, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(30.1, 16.9, -16.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.152, 0.957, 0.801, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(30.2, 16.8, -16.1)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.215, 0.029, 0.740, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(30.2, 16.8, -16.1)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.165, 0.751, 0.267, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(30.4, 16.7, -16.4)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.101, 0.936, 0.559, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(30.5, 16.4, -17.1)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.462, 0.245, 0.799, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(30.5, 16.5, -17.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.978, 0.230, 0.851, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(30.6, 16.7, -16.8)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.256, 0.475, 0.129, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(30.8, 16.7, -16.7)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.753, 0.085, 0.826, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(30.9, 17.1, -15.9)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.206, 0.160, 0.183, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(31.2, 17.2, -15.7)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.737, 0.721, 0.438, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(31.5, 17.1, -15.5)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.101, 0.781, 0.419, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(35.5, 20.1, -11.7)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.141, 0.038, 0.864, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(35.4, 20.3, -11.6)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.472, 0.694, 0.593, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(35.5, 20.4, -11.1)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.526, 0.216, 0.925, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(35.4, 20.5, -10.8)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.071, 0.891, 0.767, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(35.7, 20.4, -10.9)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.165, 0.732, 0.521, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(35.9, 20.3, -11.5)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.709, 0.079, 0.574, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(35.9, 20.7, -10.6)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.408, 0.136, 0.394, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(36.0, 20.9, -10.4)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.148, 0.827, 0.651, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(36.1, 21.1, -10.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.584, 0.930, 0.720, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(36.2, 21.1, -9.9)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.528, 0.686, 0.865, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(36.4, 21.1, -9.6)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.481, 0.065, 0.966, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(36.5, 21.1, -9.8)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.668, 0.644, 0.043, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(36.6, 21.4, -8.8)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.036, 0.810, 0.648, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(36.7, 21.6, -8.7)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.217, 0.633, 0.672, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(36.8, 21.9, -8.4)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.418, 0.807, 0.874, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(37.0, 21.9, -8.4)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.076, 0.106, 0.014, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(37.1, 22.3, -7.7)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.853, 0.343, 0.975, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(37.3, 22.3, -7.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.074, 0.752, 0.605, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(37.4, 22.2, -7.4)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.940, 0.574, 0.068, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+(37.2, 22.4, -6.5)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Controller:Update() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Controller.cs:56)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Controller.cs Line: 56)
+
+2.148592E+08
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:23)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 23)
+
+RGBA(0.010, 0.346, 0.034, 1.000)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Obj:Start() (at S:\Workspace\win\unity\gravitation\Assets\scripts\Obj.cs:29)
+ 
+(Filename: S:/Workspace/win/unity/gravitation/Assets/scripts/Obj.cs Line: 29)
+
+Waiting for finish
