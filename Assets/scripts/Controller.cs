@@ -6,6 +6,8 @@ public class Controller : MonoBehaviour {
     
     public enum GravityType
     {
+        [Tooltip("no force is applied")]
+        None,
         [Tooltip("Force towards other mass is proportional to both the distance and both the masses")]
         Linear,
         [Tooltip("Force towards other mass is proportional to the masses and inversely to the distance")]
@@ -42,29 +44,29 @@ public class Controller : MonoBehaviour {
     Obj[] obs;
     Ray ray;
     public float trailTime = 20;
+    public bool planar = false;
     public float G = 6.673e-11f;
     public float randomseed = 0.5f;
     public float mass = 9e+08f;
     public float massScale = 0.5f;
     public float O = 1;
 
+    public static Obj origin = null;
+
     public bool randomDistribution = false;
     public int randomVolume = 100;
     public int randomAmount = 100;
+    public bool trailActive { get; private set; }
 
-    public bool willClump = false;
+    private Vector3 rayPoint = Vector3.zero;
 
     void Start()
     {
-        foreach (Obj o in GetComponentsInChildren<Obj>())
-        {
-            o.gameObject.GetComponent<Rigidbody>().drag = dampening;
-        }
-
+        //Camera.main.gameObject.AddComponent(typeof(ParentPosition));
+        trailActive = true;
         if (randomDistribution)
             for (int i = 0; i < randomAmount; i++)
                 PlaceNewMass(new Vector3(Random.Range(randomVolume, -randomVolume), Random.Range(randomVolume, -randomVolume), Random.Range(randomVolume, -randomVolume)));
-
     }
 
     void PlaceNewMass(Vector3 location)
@@ -77,9 +79,6 @@ public class Controller : MonoBehaviour {
         newMass.AddComponent<Obj>();
     }
 
-    Vector3 r = Vector3.zero;
-    // Use this for initialization
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -87,23 +86,27 @@ public class Controller : MonoBehaviour {
             ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
             RaycastHit rch;
             Physics.Raycast(ray, out rch);
-            Debug.Log(rch.point);
-            r = rch.point;
-            PlaceNewMass(r);
+            //Debug.Log(rch.point);
+            Obj other = null;
+            if (Input.GetKey(KeyCode.LeftControl) && (other = rch.collider.GetComponent<Obj>()) != null)
+            {
+                other.SetAsOrigin();
+            }
+            else
+            {
+                rayPoint = rch.point;
+                PlaceNewMass(rayPoint);
+            }
+            ReactToInput();
         }
     }
 
-    void OnMouseDown()
+    void ReactToInput()
     {
-        Debug.Log(Input.mousePosition);
-        ray = Camera.main.ScreenPointToRay(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
-        RaycastHit rch;
-        Physics.Raycast(ray, out rch);
-        Debug.Log(rch.point);
-    }
-
-    void OnGUI()
-    {
-        //GUI.Label(new Rect(Screen.width / 2, Screen.height / 2, 200f, 200f), Enum.GetName(typeof(GravityType), gt));
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            if (Input.GetKeyDown(KeyCode.T))
+                trailActive = !trailActive;
+        }
     }
 }
