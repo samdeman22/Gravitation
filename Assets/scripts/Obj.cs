@@ -213,6 +213,7 @@ public class Obj : MonoBehaviour {
                 case Controller.GravityType.weaklyBound:
                         A += direction * controller.G * other.rb.mass * ((rb.mass / Mathf.Pow(mag, 2)) * (mag > controller.O ? 10 : 1));
                         break;
+                        //haha
                 }
             }
         }
