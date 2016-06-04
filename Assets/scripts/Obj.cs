@@ -205,14 +205,17 @@ public class Obj : MonoBehaviour {
                     A += new Vector3(Random.Range(-1, 1), Random.Range(-1, 1), Random.Range(-1, 1)) * Random.Range(-controller.G * 100, 100 * controller.G);
                     break;
                 case Controller.GravityType.Spring:
-                    A += direction * controller.G * other.rb.mass *rb.mass * (mag - controller.O);
+                    A += direction * controller.G * other.rb.mass * rb.mass * (mag - controller.O);
                     break;
                 case Controller.GravityType.SpringModuloRadius:
-                    A += direction * controller.G * other.rb.mass *rb.mass * (mag - controller.O * Mathf.Abs(Mathf.Sin(controller.G * Time.deltaTime)));
+                    A += direction * controller.G * other.rb.mass * rb.mass * (mag * Mathf.Sin(mag) - controller.O);
                     break;
+                case Controller.GravityType.weaklyBound:
+                        A += direction * controller.G * other.rb.mass * ((rb.mass / Mathf.Pow(mag, 2)) * (mag > controller.O ? 10 : 1));
+                        break;
                 }
             }
         }
-        return A;
+        return A / 2;
     }
 }

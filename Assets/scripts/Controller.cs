@@ -30,7 +30,8 @@ public class Controller : MonoBehaviour {
         Random,
         SuicideRandom,
         Spring,
-        SpringModuloRadius
+        SpringModuloRadius,
+        weaklyBound
     }
 
     [Tooltip("Select the placement model")]
