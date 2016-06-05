@@ -31,7 +31,10 @@ public class Controller : MonoBehaviour {
         SuicideRandom,
         Spring,
         SpringModuloRadius,
-        weaklyBound
+        weaklyBound,
+        DotProduct,
+        CrossProduct,
+        HyperTan
     }
 
     [Tooltip("Select the placement model")]
@@ -54,9 +57,11 @@ public class Controller : MonoBehaviour {
 
     public static Obj origin = null;
 
-    public bool randomDistribution = false;
+    public bool neighbourhoods = false;
     public int randomVolume = 100;
-    public int randomAmount = 100;
+    public int neighbourhoodCount = 3;
+    public int neighbourhoodSize = 40;
+    public int neighbourhoodRadius = 5;
     public bool trailActive { get; private set; }
 
     private Vector3 rayPoint = Vector3.zero;
@@ -65,9 +70,17 @@ public class Controller : MonoBehaviour {
     {
         //Camera.main.gameObject.AddComponent(typeof(ParentPosition));
         trailActive = true;
-        if (randomDistribution)
-            for (int i = 0; i < randomAmount; i++)
-                PlaceNewMass(new Vector3(Random.Range(randomVolume, -randomVolume), Random.Range(randomVolume, -randomVolume), Random.Range(randomVolume, -randomVolume)));
+        if (neighbourhoods)
+            for (int n = 0; n < neighbourhoodCount; n++)
+            {
+                var neighbourhood = new Vector3(Random.Range(randomVolume, -randomVolume), Random.Range(randomVolume, -randomVolume), Random.Range(randomVolume, -randomVolume));
+                for (int i = 0; i < neighbourhoodSize; i++)
+                {
+                    PlaceNewMass(neighbourhood + new Vector3(Random.Range(neighbourhoodRadius, -neighbourhoodRadius), Random.Range(neighbourhoodRadius, -neighbourhoodRadius), Random.Range(neighbourhoodRadius, -neighbourhoodRadius)));
+                }
+            }
+        //for (int i = 0; i < randomAmount; i++)
+        //    PlaceNewMass(new Vector3(Random.Range(randomVolume, -randomVolume), Random.Range(randomVolume, -randomVolume), Random.Range(randomVolume, -randomVolume)));
     }
 
     void PlaceNewMass(Vector3 location)

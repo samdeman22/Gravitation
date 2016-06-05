@@ -211,9 +211,18 @@ public class Obj : MonoBehaviour {
                     A += direction * controller.G * other.rb.mass * rb.mass * (mag * Mathf.Sin(mag) - controller.O);
                     break;
                 case Controller.GravityType.weaklyBound:
-                        A += direction * controller.G * other.rb.mass * ((rb.mass / Mathf.Pow(mag, 2)) * (mag > controller.O ? 10 : 1));
-                        break;
-                        //haha
+                        float k = 0.2f;
+                        A += direction * (mag < 300 ? controller.G * other.rb.mass * (rb.mass / (Mathf.Pow(mag - controller.O, 2) + k)) * ((Mathf.Exp(mag) - Mathf.Exp(-mag)) / (Mathf.Exp(mag) + Mathf.Exp(-mag))) : 0);
+                    break;
+                case Controller.GravityType.DotProduct:
+                    A += (direction * controller.G * rb.mass * other.rb.mass) / Vector3.Dot(rb.velocity, (direction * mag));
+                    break;
+                case Controller.GravityType.CrossProduct:
+                    A += controller.G * Vector3.Cross(/*rb.velocity.normalized*/direction, other.rb.velocity.normalized);
+                    break;
+                case Controller.GravityType.HyperTan:
+                    A += direction * controller.G * other.rb.mass * rb.mass * ((Mathf.Exp(mag) - Mathf.Exp(-mag)) /(Mathf.Exp(mag) + Mathf.Exp(-mag)));
+                    break;
                 }
             }
         }
