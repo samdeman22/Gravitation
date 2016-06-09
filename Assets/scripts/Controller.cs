@@ -45,8 +45,10 @@ public class Controller : MonoBehaviour {
     [Tooltip("Select an alternate operation mode for gravity")]
     public GravityType gt = GravityType.InverseSquare;
 
-    Obj[] obs;
     Ray ray;
+    public bool paused { get; private set; }
+    public bool gravityActive { get; private set; }
+
     public float trailTime = 20;
     public bool planar = false;
     public float G = 6.673e-11f;
@@ -69,6 +71,8 @@ public class Controller : MonoBehaviour {
     void Start()
     {
         trailActive = true;
+        paused = false;
+        gravityActive = true;
         if (neighbourhoods)
             for (int n = 0; n < neighbourhoodCount; n++)
             {
@@ -111,6 +115,18 @@ public class Controller : MonoBehaviour {
                 PlaceNewMass(rayPoint);
             }
         }
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            paused = !paused;
+            if (!paused)
+                PauseMasses();
+            else
+                UnpauseMasses();
+        }
+        else if (Input.GetKeyDown(KeyCode.G))
+        {
+            gravityActive = !gravityActive;
+        }
         //ReactToInput();
     }
 
@@ -121,5 +137,22 @@ public class Controller : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.T))
                 trailActive = !trailActive;
         }
+    }
+
+    //store velocities of everything on pause, and reapply on unpause
+    Dictionary<string, Vector3> vs = new Dictionary<string, Vector3>();
+    void PauseMasses()
+    {
+        foreach (Obj o in FindObjectsOfType<Obj>())
+        {
+            vs.Add(o.name, o.rb.velocity);
+            o.rb.velocity = Vector3.zero;
+        }
+    }
+
+    void UnpauseMasses()
+    {
+        foreach (Obj o in FindObjectsOfType<Obj>())
+            o.rb.velocity = vs[o.name];
     }
 }

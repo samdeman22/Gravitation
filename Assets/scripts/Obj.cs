@@ -94,20 +94,22 @@ public class Obj : MonoBehaviour {
     }
 	
 	void Update () {
-        if (gravityActive)
+        if (!controller.paused && controller.gravityActive)
+        {
             rb.AddForce(GetGravity());
 
-        if (isOrigin)
-        {
-            var dp = -transform.position;
-            var dv = -rb.velocity;
-            foreach (Obj o in effectingMasses)
+            if (isOrigin)
             {
-                o.transform.position += dp;
-                o.rb.velocity += dv;
+                var dp = -transform.position;
+                var dv = -rb.velocity;
+                foreach (Obj o in effectingMasses)
+                {
+                    o.transform.position += dp;
+                    o.rb.velocity += dv;
+                }
+                transform.position = Vector3.zero;
+                rb.velocity += dv;
             }
-            transform.position = Vector3.zero;
-            rb.velocity += dv;
         }
     }
 
