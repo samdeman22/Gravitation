@@ -68,7 +68,6 @@ public class Controller : MonoBehaviour {
 
     void Start()
     {
-        //Camera.main.gameObject.AddComponent(typeof(ParentPosition));
         trailActive = true;
         if (neighbourhoods)
             for (int n = 0; n < neighbourhoodCount; n++)
@@ -79,8 +78,6 @@ public class Controller : MonoBehaviour {
                     PlaceNewMass(neighbourhood + new Vector3(Random.Range(neighbourhoodRadius, -neighbourhoodRadius), Random.Range(neighbourhoodRadius, -neighbourhoodRadius), Random.Range(neighbourhoodRadius, -neighbourhoodRadius)));
                 }
             }
-        //for (int i = 0; i < randomAmount; i++)
-        //    PlaceNewMass(new Vector3(Random.Range(randomVolume, -randomVolume), Random.Range(randomVolume, -randomVolume), Random.Range(randomVolume, -randomVolume)));
     }
 
     void PlaceNewMass(Vector3 location)
@@ -104,15 +101,17 @@ public class Controller : MonoBehaviour {
             Obj other = null;
             if (Input.GetKey(KeyCode.LeftControl) && (other = rch.collider.GetComponent<Obj>()) != null)
             {
-                other.SetAsOrigin();
+                if (other != null)
+                    other.SetAsOrigin();
             }
             else
             {
+                origin = null;
                 rayPoint = rch.point;
                 PlaceNewMass(rayPoint);
             }
-            ReactToInput();
         }
+        //ReactToInput();
     }
 
     void ReactToInput()
