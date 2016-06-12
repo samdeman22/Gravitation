@@ -9,14 +9,11 @@ public class Obj : MonoBehaviour {
     public static List<Obj> effectingMasses = new List<Obj>();
     public bool isOrigin { private set; get; }
     public Rigidbody rb { get; private set; }
-    public ParentPosition target { get; set; }
 
-    //private TrailRenderer tr;
     private MeshRenderer mr;
     private Controller controller;
     private ParticleSystem pt;
     private static bool gravityActive = true;
-    private Vector3 lastPos = Vector3.zero;
 
     public void AddEffectingMass(Obj o)
     {
@@ -32,20 +29,11 @@ public class Obj : MonoBehaviour {
     {
         Controller.origin = this;
         isOrigin = true;
-        var dp = -transform.position;
-        var dv = -rb.velocity;
-        transform.position = Vector3.zero;
-        rb.velocity = Vector3.zero;
-        ((PlaneVisual)FindObjectOfType(typeof(PlaneVisual))).target = transform;
-        //((ParentPosition)Camera.main.GetComponent(typeof(ParentPosition))).positionParent = transform;
         foreach (Obj other in effectingMasses)
         {
             if (other != this)
             {
                 other.isOrigin = false;
-                other.transform.position += dp;
-                other.rb.velocity += dv;
-                //other.tr.Clear();
             }
         }
     }
@@ -61,7 +49,6 @@ public class Obj : MonoBehaviour {
         pt.transform.localPosition = Vector3.zero;
         //pt = FindObjectOfType<ParticleSystem>();
         mr = (MeshRenderer)gameObject.GetComponent(typeof(MeshRenderer));
-        target = (ParentPosition)gameObject.AddComponent(typeof(ParentPosition));
 
         rb.mass = controller.mass;
         scale = controller.massScale;
@@ -107,25 +94,23 @@ public class Obj : MonoBehaviour {
     }
 	
 	void Update () {
-        if (gravityActive)
-            rb.AddForce(GetGravity());
-        //tr.enabled = controller.trailActive;
-
-        ParticleSystem.Particle[] parts = new ParticleSystem.Particle[pt.particleCount];
-        pt.GetParticles(parts);
-        for (int i = 0; i < parts.Length; i++)
-            parts[i].position += (transform.position - lastPos);
-
-        if (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl))
+        if (!controller.paused && controller.gravityActive)
         {
-            if (isOrigin && Input.GetKeyDown(KeyCode.R))
+            rb.AddForce(GetGravity());
+
+            if (isOrigin)
             {
-                Controller.origin = null;
-                isOrigin = false;
-                ((PlaneVisual)FindObjectOfType(typeof(PlaneVisual))).target = null;
+                var dp = -transform.position;
+                var dv = -rb.velocity;
+                foreach (Obj o in effectingMasses)
+                {
+                    o.transform.position += dp;
+                    o.rb.velocity += dv;
+                }
+                transform.position = Vector3.zero;
+                rb.velocity += dv;
             }
         }
-        lastPos = transform.position;
     }
 
     void OnGUI()
@@ -146,7 +131,6 @@ public class Obj : MonoBehaviour {
         if (e.type == EventType.KeyDown && e.keyCode == KeyCode.T)
         {
             pt.GetComponent<ParticleSystem>().Clear();
-            //tr.Clear();
         }
     }
 
@@ -205,14 +189,27 @@ public class Obj : MonoBehaviour {
                     A += new Vector3(Random.Range(-1, 1), Random.Range(-1, 1), Random.Range(-1, 1)) * Random.Range(-controller.G * 100, 100 * controller.G);
                     break;
                 case Controller.GravityType.Spring:
-                    A += direction * controller.G * other.rb.mass *rb.mass * (mag - controller.O);
+                    A += direction * controller.G * other.rb.mass * rb.mass * (mag - controller.O);
                     break;
                 case Controller.GravityType.SpringModuloRadius:
-                    A += direction * controller.G * other.rb.mass *rb.mass * (mag - controller.O * Mathf.Abs(Mathf.Sin(controller.G * Time.deltaTime)));
+                    A += direction * controller.G * other.rb.mass * rb.mass * (mag * Mathf.Sin(mag) - controller.O);
+                    break;
+                case Controller.GravityType.weaklyBound:
+                    float k = 0.2f;
+                    A += direction * (mag < 300 ? controller.G * other.rb.mass * (rb.mass / (Mathf.Pow(mag - controller.O, 2) + k)) * ((Mathf.Exp(mag) - Mathf.Exp(-mag)) / (Mathf.Exp(mag) + Mathf.Exp(-mag))) : 0);
+                    break;
+                case Controller.GravityType.DotProduct:
+                    A += (direction * controller.G * rb.mass * other.rb.mass) / Vector3.Dot(rb.velocity, (direction * mag));
+                    break;
+                case Controller.GravityType.CrossProduct:
+                    A += controller.G * Vector3.Cross(/*rb.velocity.normalized*/direction, other.rb.velocity.normalized);
+                    break;
+                case Controller.GravityType.HyperTan:
+                    A += direction * controller.G * other.rb.mass * rb.mass * ((Mathf.Exp(mag) - Mathf.Exp(-mag)) /(Mathf.Exp(mag) + Mathf.Exp(-mag)));
                     break;
                 }
             }
         }
-        return A;
+        return A / 2;
     }
 }
