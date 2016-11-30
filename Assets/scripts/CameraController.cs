@@ -35,8 +35,5 @@ public class CameraController : MonoBehaviour {
 		v = new Vector3(Input.GetAxis("Horizontal")*moveCoefficient, 0, Input.GetAxis("Vertical")*moveCoefficient);
 		rb.velocity = Camera.main.transform.rotation * v;
         rb.velocity += new Vector3(0, vertical * VerticalSpeed, 0);
-        //rb.AddRelativeForce(new Vector3(Input.GetAxis("Horizontal") * moveCoefficient, 0, Input.GetAxis("Vertical") * moveCoefficient), ForceMode.VelocityChange);
-        //rb.AddForce(new Vector3(0, vertical * VerticalSpeed, 0), ForceMode.VelocityChange);
-        Debug.Log("vertical " + Input.GetAxis("Vertical") + " horizontal " + Input.GetAxis("Horizontal") + " | " + v + " vs " + rb.velocity);
     }
 }
